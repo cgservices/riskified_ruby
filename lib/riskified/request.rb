@@ -7,7 +7,7 @@ module Riskified
     SANDBOX_URL = "https://sandbox.riskified.com".freeze
     ASYNC_LIVE_URL = "https://wh.riskified.com".freeze
     SYNC_LIVE_URL = "https://wh-sync.riskified.com".freeze
-    CONNECTION_TIMEOUT = 2
+    CONNECTION_TIMEOUT = 5
     RESPONSE_TIMEOUT = 5
 
     def initialize(resource, json_body)
