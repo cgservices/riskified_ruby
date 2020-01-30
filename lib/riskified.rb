@@ -8,6 +8,7 @@ require 'riskified/Exceptions/api_connection_error'
 require 'riskified/Exceptions/configuration_error'
 require 'riskified/Exceptions/request_failed_error'
 require 'riskified/Exceptions/response_parsing_error'
+require 'riskified/Exceptions/request_timed_out_error'
 require 'riskified/Exceptions/unexpected_order_status_error'
 # Entities
 require 'riskified/Entities/keyword_struct'
